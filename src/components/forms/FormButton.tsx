@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes } from 'react'
+import { ButtonHTMLAttributes } from 'react'
 
 interface FormButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> { }
 
