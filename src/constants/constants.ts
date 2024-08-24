@@ -1,0 +1,15 @@
+export default {
+  RESUME_URL: "https://derghambouhassoun.tiiny.site",
+  PORTFOLIO_URL: "https://derghambouhassoun.tiiny.site/portfolio",
+  CONTACT_URL: "https://derghambouhassoun.tiiny.site/contact",
+  LINKEDIN_URL: "https://www.linkedin.com/in/derghambouhassoun/",
+  GITHUB_URL: "https://github.com/derghambouhassoun",
+  FACEBOOK_URL: "https://www.facebook.com/",
+  TWITTER_URL: "https://twitter.com/",
+  INSTAGRAM_URL: "https://www.instagram.com/",
+  HOME_PAGE: "/",
+  ABOUT_PAGE: "/about-me",
+  PROJECTS_PAGE: "/projects",
+  CONTACT_PAGE: "/contact-me",
+  RESUME_PAGE: "/resume",
+}

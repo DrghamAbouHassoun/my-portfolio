@@ -1,0 +1,36 @@
+{
+  "name": "Dergham Bou Hassoun",
+  "firstName": "Dergham",
+  "lastName": "Bou Hassoun",
+  "email": "drghambouhassoun@gmail.com",
+  "phone": "+971568097100",
+  "address": "Dubai, UAE",
+  "languages": ["Arabic", "English"],
+  "nationality": "Syrian",
+  "yearOfBirth": 2001,
+  "monthOfBirth": "January",
+  "dayOfBirth": 1,
+  "accomplishments": [
+    {
+      "title": "Years of Experience",
+      "number": 4,
+      "prefix": "+"
+    },
+    {
+      "title": "Completed Projects",
+      "number": 13,
+      "prefix": ""
+    },
+    {
+      "title": "Happy Customers",
+      "number": 22,
+      "prefix": ""
+    }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/dergham-bou-hassoun-653501224",
+    "upwork": "https://www.upwork.com/fl/~016f9ad8a19e5a0b22?mp_source=share",
+    "facebook": "https://www.facebook.com/",
+    "twitterX": "https://x.com"
+  }
+}

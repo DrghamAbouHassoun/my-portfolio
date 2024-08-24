@@ -1,0 +1,110 @@
+{
+  "experience": {
+    "mainTitle": "Experience",
+    "data": [
+      {
+        "title": "Senior Full Stack Developer",
+        "institution": "Life Smile",
+        "from": "2023-04-23T18:25:43.511Z",
+        "to": "present",
+        "location": "Dubai, UAE",
+        "description": [
+          "Developed and maintained responsive web and mobile applications using Next.js, React.js, and Node.js, resulting in a 40% increase in user engagement.",
+          "Integrated multiple payment gateways, leading to a 25% increase in successful transactions.",
+          "Led the development of a comprehensive order tracking system that enhanced user experience and reduced support inquiries by 20%.",
+          "Integrated multiple payment methods, resulting in a 20% increase in sales.",
+          "Managed and configured cloud services and infrastructure to support application deployment and scaling.",
+          "Designed and implemented a notification system to keep users informed of updates and actions, increasing user retention by 15%."
+        ]
+      },
+      {
+        "title": "Full Stack Developer",
+        "institution": "Web CTRLA",
+        "from": "2024-05-23T18:25:43.511Z",
+        "to": "2024-05-23T18:25:43.511Z",
+        "location": "Dubai, UAE",
+        "description": [
+          "Developed end-to-end web applications using Next.js, React.js, and Node.js, driving a 35% increase in customer satisfaction.",
+          "Engineered a complex web system application software that increased customer conversion rates by 12%.",
+          "Enhanced system accessibility and responsiveness, leading to a 10% increase in daily active users.",
+          "Collaborated with back-end developers to create RESTful APIs, improving data flow and integration between front-end and back-end systems.",
+          "Implemented accessibility best practices, achieving WCAG 2.1 compliance and enhancing user experience for individuals with disabilities."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "mainTitle": "Education",
+    "data": [
+      {
+        "title": "Bachelor of Science in Computer Science",
+        "institution": "Syrian Virtual University",
+        "from": "2022-05-23T18:25:43.511Z",
+        "to": "present",
+        "location": "Damascus, Syria",
+        "description": [
+          "Core studies: Algorithms, Data Structures, Software Engineering, Database Systems, Computer Networks",
+          "Programming languages: Java, Python, C++, JavaScript",
+          "Focus on software development, system design, and computational problem-solving",
+          "Projects in machine learning, web development, and mobile applications"
+        ]
+      },
+      {
+        "title": "Bachelor of Applied Mathematics",
+        "institution": "Damascus University",
+        "from": "2018-07-23T18:25:43.511Z",
+        "to": "2022-11-23T18:25:43.511Z",
+        "location": "Damascus, Syria",
+        "description": [
+          "Coursework: Calculus, Linear Algebra, Differential Equations, Numerical Analysis, Statistics, Mathematical Modeling",
+          "Focus on practical applications of mathematical concepts to real-world problems",
+          "Developed skills in data analysis, problem-solving, and computational methods"
+        ]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "title": "React.js",
+      "percentage": 95
+    },
+    {
+      "title": "Next.js",
+      "percentage": 95
+    },
+    {
+      "title": "Node.js",
+      "percentage": 90
+    },
+    {
+      "title": "HTML/CSS",
+      "percentage": 90
+    },
+    {
+      "title": "MySQL",
+      "percentage": 80
+    },
+    {
+      "title": "Nest.js",
+      "percentage": 80
+    },
+    {
+      "title": "Tailwind",
+      "percentage": 90
+    },
+    {
+      "title": "React Native",
+      "percentage": 90
+    }
+  ],
+  "languages": [
+    {
+      "title": "English",
+      "percentage": 80
+    },
+    {
+      "title": "Arabic",
+      "percentage": 90
+    }
+  ]
+}
