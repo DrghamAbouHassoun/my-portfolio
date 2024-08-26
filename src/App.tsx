@@ -14,8 +14,8 @@ function App() {
         <Home key="home" />
         <About key="about" />
         <Resume key="resume" />
-        <Contact key="contact" />
         <Portfolio key="portfolio" />
+        <Contact key="contact" />
       </Layout>
     </div>
   )

@@ -42,9 +42,9 @@ const Layout = ({ children }: LayoutProps) => {
             <Navbar />
           </div>
           <div className={`w-full max-w-[1200px] mx-auto flex flex-col relative transition-transform self-center duration-[2s] delay-1000 custom-translate-${currentPageIndex}`}>
-            {children.map((page) => (
+            {children.map((page, index) => (
               <div
-                key={page.key}
+                key={index}
                 className={`h-[100vh] overflow-x-auto scroll-container w-full py-5 transition-all duration-[2s] ${isMoving ? "custom-shadow scale-75" : ""}`}
               >
                 {page}
