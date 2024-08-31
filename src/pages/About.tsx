@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="h-full p-4 pt-[200px] pb-[100px]">
       <h2 className="text-5xl font-bold uppercase w-full text-center p-3 mb-10">About <span>Me</span></h2>
-      <div className="flex my-10">
+      <div className="flex my-10 flex-wrap gap-2">
         <div className="flex-1">
           <h2 className="text-xl font-bold flex-1">Personal Informations:</h2>
           <div className="grid grid-cols-2 gap-5 my-10">
@@ -40,7 +40,7 @@ const About = () => {
       <hr className="text-gray-600 border-gray-500 my-20" />
       <div className="my-10">
         <h2 className="text-3xl mb-20">My Service:</h2>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {services.map(item => (
             <ServiceCard
               key={item.title}

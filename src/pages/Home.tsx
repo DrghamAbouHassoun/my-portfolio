@@ -1,18 +1,29 @@
 // import MyImage from "../assets/images/oo1-removebg.png";
 import { useContext } from "react"
 import { FaArrowRight, FaDownload } from "react-icons/fa"
-import { CurrentPageContext } from "../layout/Layout"
+import { CurrentPageContext } from "../layout/Layout";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   const { handleChangeCurrentPageIndex } = useContext(CurrentPageContext);
 
   return (
-    <div className="flex flex-col justify-center items-center gap-5 text-center w-full h-full">
+    <div className="flex flex-col justify-center items-center gap-5 text-center w-full h-full p-2">
       {/* <div className="rounded-full border-2 border-gray-500 overflow-hidden h-[150px] w-[150px] relative">
         <img src={MyImage} alt="Dergham Bou Hassoun" className="w-full h-full" />
         <div className="absolute bg-[#0002] top-0 left-0 w-[100%] h-[100%]"></div>
       </div> */}
-      <h1 className="text-5xl font-bold uppercase max-w-[700px]">I'm <span className="text-primary-200">Dergham Bou Hassoun</span></h1>
+      {/* <h1 className="text-5xl font-bold uppercase max-w-[700px]">I'm <span className="text-primary-200">Dergham Bou Hassoun</span></h1> */}
+      <span className="text-3xl font-bold uppercase">I'am</span> <TypeAnimation 
+        sequence={[
+          "Dergham Bou Hassoun",
+          1000,
+        ]}
+        wrapper="span"
+        speed={20}
+        style={{ fontSize: '3rem', display: 'inline-block', fontWeight: "bold", textTransform: "uppercase", color: "#00f8f8" }}
+        // repeat={Infinity}
+      />
       <h3 className="text-xl">Full Stack Developer | Mobile Application Developer</h3>
       <p className="max-w-[700px] text-center">I'm a Syrian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
       <div className="flex justify-center items-center gap-4">

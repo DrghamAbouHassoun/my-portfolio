@@ -38,7 +38,7 @@ const Layout = ({ children }: LayoutProps) => {
           <AnimatedBackground />
         </div>
         <div className="absolute w-[100vw] h-[100vh] overflow-hidden top-0">
-          <div className="fixed right-3 h-full flex items-center z-20">
+          <div className="fixed right-3 h-full flex sm:items-center z-20">
             <Navbar />
           </div>
           <div className={`w-full max-w-[1200px] mx-auto flex flex-col relative transition-transform self-center duration-[2s] delay-1000 custom-translate-${currentPageIndex}`}>

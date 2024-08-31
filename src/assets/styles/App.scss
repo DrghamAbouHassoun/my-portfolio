@@ -195,6 +195,38 @@ body{
     transform: translateY(-400vh);
 }
 
+.menu-translate-minus {
+    transform: translateY(-70px);
+}
+
+.menu-translate-0 {
+    transform: translateY(0);
+}
+
+.menu-translate-1 {
+    transform: translateY(70px);
+}
+
+.menu-translate-2 {
+    transform: translateY(140px);
+}
+
+.menu-translate-3 {
+    transform: translateY(210px);
+}
+
+.menu-translate-4 {
+    transform: translateY(280px);
+}
+
+.menu-translate-5 {
+    transform: translateY(350px);
+}
+
+.menu-translate-6 {
+    transform: translateY(420px);
+}
+
 // Chart
 .pie-chart {
     width: 150px;

@@ -1,7 +1,30 @@
 [
   {
-    "title": "Life Smile Website",
-    "subtitle": "Ecommerce website for Life Smile Company",
+    "title": "Salama Nutrition Website",
+    "subtitle": "Ecommerce website for Salama Nutrition Company",
+    "type": "",
+    "description": "",
+    "from": "2023-04-23T18:25:43.511Z",
+    "to": "2023-04-23T18:25:43.511Z",
+    "client": "Salama Nutrition",
+    "websiteLink": "https://lifesmile.ae",
+    "githubLink": "",
+    "androidLink": "",
+    "iosLink": "",
+    "media": [
+      {
+        "src": "/images/projects/salama/1.jpg",
+        "alt": "Lifesmile website home page | Dergham Portfolio",
+        "type": "image"
+      }
+    ],
+    "skills": [
+      "Next.js", "React.js", "MySQL", "CSS", "HTML", "Tailwindcss", "AWS", "AWS S3", "Nest.js"
+    ]
+  },
+  {
+    "title": "Life Smile Application",
+    "subtitle": "Ecommerce Application for Life Smile Company",
     "type": "",
     "description": "",
     "from": "2023-04-23T18:25:43.511Z",
@@ -13,8 +36,8 @@
     "iosLink": "",
     "media": [
       {
-        "src": "/images/projects/lifesmile-website/1.png",
-        "alt": "Lifesmile website home page | Dergham Portfolio",
+        "src": "/images/projects/lifesmile-application/1.jpg",
+        "alt": "Lifesmile application home page | Dergham Portfolio",
         "type": "image"
       }
     ],
@@ -36,7 +59,7 @@
     "iosLink": "",
     "media": [
       {
-        "src": "/images/projects/lifesmile-website/1.png",
+        "src": "/images/projects/lifesmile-website/1.jpg",
         "alt": "Lifesmile website home page | Dergham Portfolio",
         "type": "image"
       }
@@ -46,7 +69,30 @@
     ]
   },
   {
-    "title": "Life Smile Website",
+    "title": "Schrammek Website",
+    "subtitle": "Ecommerce website for Schrammek Company",
+    "type": "",
+    "description": "",
+    "from": "2023-04-23T18:25:43.511Z",
+    "to": "2023-04-23T18:25:43.511Z",
+    "client": "Schrammek",
+    "websiteLink": "https://lifesmile.ae",
+    "githubLink": "",
+    "androidLink": "",
+    "iosLink": "",
+    "media": [
+      {
+        "src": "/images/projects/schrammek/1.jpg",
+        "alt": "Lifesmile website home page | Dergham Portfolio",
+        "type": "image"
+      }
+    ],
+    "skills": [
+      "Next.js", "React.js", "MySQL", "CSS", "HTML", "Tailwindcss", "AWS", "AWS S3", "Nest.js"
+    ]
+  },
+  {
+    "title": "Click Express Website",
     "subtitle": "Ecommerce website for Life Smile Company",
     "type": "",
     "description": "",
@@ -59,7 +105,7 @@
     "iosLink": "",
     "media": [
       {
-        "src": "/images/projects/lifesmile-website/1.png",
+        "src": "/images/projects/click-express/1.jpg",
         "alt": "Lifesmile website home page | Dergham Portfolio",
         "type": "image"
       }
@@ -69,7 +115,7 @@
     ]
   },
   {
-    "title": "Life Smile Website",
+    "title": "Life Smile Dashboard",
     "subtitle": "Ecommerce website for Life Smile Company",
     "type": "",
     "description": "",
@@ -82,7 +128,7 @@
     "iosLink": "",
     "media": [
       {
-        "src": "/images/projects/lifesmile-website/1.png",
+        "src": "/images/projects/lifesmile-dashboard/1.jpg",
         "alt": "Lifesmile website home page | Dergham Portfolio",
         "type": "image"
       }
@@ -92,20 +138,89 @@
     ]
   },
   {
-    "title": "Life Smile Website",
-    "subtitle": "Ecommerce website for Life Smile Company",
+    "title": "Mepco Annual Report",
+    "subtitle": "Digital Annual report for Mepco companey",
     "type": "",
     "description": "",
     "from": "2023-04-23T18:25:43.511Z",
     "to": "2023-04-23T18:25:43.511Z",
-    "client": "Life Smile",
+    "client": "Mepco",
     "websiteLink": "https://lifesmile.ae",
     "githubLink": "",
     "androidLink": "",
     "iosLink": "",
     "media": [
       {
-        "src": "/images/projects/lifesmile-website/1.png",
+        "src": "/images/projects/mepco/1.jpg",
+        "alt": "Lifesmile website home page | Dergham Portfolio",
+        "type": "image"
+      }
+    ],
+    "skills": [
+      "Next.js", "React.js", "MySQL", "CSS", "HTML", "Tailwindcss", "AWS", "AWS S3", "Nest.js"
+    ]
+  },
+  {
+    "title": "Alhudhud Website",
+    "subtitle": "Digital Annual report for Mepco companey",
+    "type": "",
+    "description": "",
+    "from": "2023-04-23T18:25:43.511Z",
+    "to": "2023-04-23T18:25:43.511Z",
+    "client": "Mepco",
+    "websiteLink": "https://lifesmile.ae",
+    "githubLink": "",
+    "androidLink": "",
+    "iosLink": "",
+    "media": [
+      {
+        "src": "/images/projects/alhudhud-website/1.jpg",
+        "alt": "Lifesmile website home page | Dergham Portfolio",
+        "type": "image"
+      }
+    ],
+    "skills": [
+      "Next.js", "React.js", "MySQL", "CSS", "HTML", "Tailwindcss", "AWS", "AWS S3", "Nest.js"
+    ]
+  },
+  {
+    "title": "SAB ESG Report",
+    "subtitle": "Saudi Britsh Bank esg report",
+    "type": "",
+    "description": "",
+    "from": "2023-04-23T18:25:43.511Z",
+    "to": "2023-04-23T18:25:43.511Z",
+    "client": "Mepco",
+    "websiteLink": "https://lifesmile.ae",
+    "githubLink": "",
+    "androidLink": "",
+    "iosLink": "",
+    "media": [
+      {
+        "src": "/images/projects/sab/1.jpg",
+        "alt": "Lifesmile website home page | Dergham Portfolio",
+        "type": "image"
+      }
+    ],
+    "skills": [
+      "Next.js", "React.js", "MySQL", "CSS", "HTML", "Tailwindcss", "AWS", "AWS S3", "Nest.js"
+    ]
+  },
+  {
+    "title": "ANB Annual Report",
+    "subtitle": "Digital annual report for ANB Bank",
+    "type": "",
+    "description": "",
+    "from": "2023-04-23T18:25:43.511Z",
+    "to": "2023-04-23T18:25:43.511Z",
+    "client": "Mepco",
+    "websiteLink": "https://lifesmile.ae",
+    "githubLink": "",
+    "androidLink": "",
+    "iosLink": "",
+    "media": [
+      {
+        "src": "/images/projects/anb/1.jpg",
         "alt": "Lifesmile website home page | Dergham Portfolio",
         "type": "image"
       }
