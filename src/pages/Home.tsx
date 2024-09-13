@@ -21,12 +21,13 @@ const Home = () => {
         ]}
         wrapper="span"
         speed={20}
-        style={{ fontSize: '3rem', display: 'inline-block', fontWeight: "bold", textTransform: "uppercase", color: "#00f8f8" }}
+        className="text-4xl md:text-5xl inline-block font-bold uppercase text-primary-100"
+        // style={{ fontSize: '3rem', display: 'inline-block', fontWeight: "bold", textTransform: "uppercase", color: "#00f8f8" }}
         // repeat={Infinity}
       />
       <h3 className="text-xl">Full Stack Developer | Mobile Application Developer</h3>
       <p className="max-w-[700px] text-center">I'm a Syrian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
-      <div className="flex justify-center items-center gap-4">
+      <div className="flex flex-wrap justify-center items-center gap-4">
         <a href="/" className="flex items-center gap-2 p-3 px-5 bg-primary-200 text-white rounded-full font-bold">
           <FaDownload /> <span>Downloac CV</span>
         </a>

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Salama Nutrition Website",
     "subtitle": "Ecommerce website for Salama Nutrition Company",
     "type": "",
@@ -23,6 +24,7 @@
     ]
   },
   {
+    "id": 2,
     "title": "Life Smile Application",
     "subtitle": "Ecommerce Application for Life Smile Company",
     "type": "",
@@ -46,10 +48,35 @@
     ]
   },
   {
+    "id": 3,
+    "title": "Alhudhud Application",
+    "subtitle": "Ecommerce Application for Alhudhud Company",
+    "type": "",
+    "description": "",
+    "from": "2023-04-23T18:25:43.511Z",
+    "to": "2023-04-23T18:25:43.511Z",
+    "client": "Life Smile",
+    "websiteLink": "https://lifesmile.ae",
+    "githubLink": "",
+    "androidLink": "",
+    "iosLink": "",
+    "media": [
+      {
+        "src": "/images/projects/alhudhud-application/1.jpg",
+        "alt": "Lifesmile application home page | Dergham Portfolio",
+        "type": "image"
+      }
+    ],
+    "skills": [
+      "Next.js", "React.js", "MySQL", "CSS", "HTML", "Tailwindcss", "AWS", "AWS S3", "Nest.js"
+    ]
+  },
+  {
+    "id": 4,
     "title": "Life Smile Website",
     "subtitle": "Ecommerce website for Life Smile Company",
     "type": "",
-    "description": "",
+    "description": "<h1>E-commerce Platform</h1><p>This eCommerce platform is a high-performance, scalable solution built with <strong>Next.js</strong>, <strong>MySQL</strong>, and <strong>AWS</strong>, ensuring both speed and reliability. The frontend leverages <strong>Next.js</strong> for server-side rendering and optimized SEO, enhancing user experience with fast load times and smooth navigation. The backend, powered by <strong>MySQL</strong>, manages a robust relational database ensuring efficient storage and retrieval of product, user, and transaction data.</p><p>To meet modern security and scalability needs, the platform is hosted on <strong>AWS</strong>, utilizing services like EC2 for hosting, S3 for media storage, and RDS for managing the MySQL database. This ensures a high-availability architecture, capable of handling large-scale traffic with automatic scaling.</p><p>The platform is integrated with <strong>multiple payment gateways</strong> (e.g., Stripe, PayPal, and local banking solutions), offering users flexible and secure payment methods. The system is designed to support international transactions with real-time currency conversions and fraud prevention mechanisms.</p><h2>Key Features:</h2><ul><li><strong>Responsive Design</strong> for an optimized shopping experience across devices.</li><li><strong>Seamless Checkout</strong> with support for multiple currencies and payment methods.</li><li><strong>AWS Integration</strong> for scalable, secure, and fast performance.</li><li><strong>Database Management</strong> with MySQL for transactional integrity and data consistency.</li><li><strong>Next.js SSR</strong> for improved SEO and lightning-fast page loads.</li></ul><p>This eCommerce solution is ideal for businesses looking to expand their digital presence while offering customers a seamless, secure, and scalable shopping experience.</p>",
     "from": "2023-04-23T18:25:43.511Z",
     "to": "2023-04-23T18:25:43.511Z",
     "client": "Life Smile",
@@ -69,6 +96,7 @@
     ]
   },
   {
+    "id": 5,
     "title": "Schrammek Website",
     "subtitle": "Ecommerce website for Schrammek Company",
     "type": "",
@@ -92,6 +120,7 @@
     ]
   },
   {
+    "id": 6,
     "title": "Click Express Website",
     "subtitle": "Ecommerce website for Life Smile Company",
     "type": "",
@@ -115,6 +144,7 @@
     ]
   },
   {
+    "id": 7,
     "title": "Life Smile Dashboard",
     "subtitle": "Ecommerce website for Life Smile Company",
     "type": "",
@@ -138,6 +168,7 @@
     ]
   },
   {
+    "id": 8,
     "title": "Mepco Annual Report",
     "subtitle": "Digital Annual report for Mepco companey",
     "type": "",
@@ -161,6 +192,7 @@
     ]
   },
   {
+    "id": 9,
     "title": "Alhudhud Website",
     "subtitle": "Digital Annual report for Mepco companey",
     "type": "",
@@ -184,6 +216,7 @@
     ]
   },
   {
+    "id": 10,
     "title": "SAB ESG Report",
     "subtitle": "Saudi Britsh Bank esg report",
     "type": "",
@@ -207,6 +240,7 @@
     ]
   },
   {
+    "id": 13,
     "title": "ANB Annual Report",
     "subtitle": "Digital annual report for ANB Bank",
     "type": "",

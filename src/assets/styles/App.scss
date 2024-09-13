@@ -261,3 +261,30 @@ body{
         z-index: 40;
     }
 }
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0.1;
+        // box-shadow: none;
+    }
+    100% {
+        opacity: 1;
+        // box-shadow: 0px 0px 15px 4px rgba(255, 255, 255, 0.2);
+    }
+}
+
+.modal-animation {
+    animation-name: FadeIn;
+    animation-duration: 1s;
+}
+
+.html-content {
+    p {
+        margin: 1rem 0;
+    }
+    ul {
+        margin: 1rem 0;
+        padding: 0rem 2rem;
+        list-style-type: circle;
+    }
+}

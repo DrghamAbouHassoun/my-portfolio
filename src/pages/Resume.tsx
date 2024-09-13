@@ -4,9 +4,9 @@ import ResumeTimeline from "../components/timeline/ResumeTimeline";
 
 const Resume = () => {
   return (
-    <div className="flex justify-center items-center h-full flex-col p-10 mt-[700px]">
+    <div className="flex justify-center items-center h-full flex-col p-10 mt-[270vh]">
       <h1 className="text-5xl font-bold mb-16">Resume:</h1>
-      <div className="flex gap-10 w-full">
+      <div className="flex gap-10 w-full flex-wrap">
         <div className="flex-1">
           <ResumeTimeline
             mainTitle={ResumeData.experience.mainTitle}
