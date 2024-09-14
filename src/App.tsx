@@ -10,7 +10,7 @@ import ModalProvider from "./providers/modal.provider"
 function App() {
 
   return (
-    <div className="bg-black text-white dark">
+    <div className="bg-black text-white dark !scroll-smooth">
       <ModalProvider>
         <Layout>
           <Home key="home" />

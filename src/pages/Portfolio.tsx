@@ -1,11 +1,14 @@
 import projects from '../assets/data/projects.json';
 import ProjectCard from '../components/cards/ProjectCard';
+import PageContainer from '../layout/PageContainer';
 
 
 const Portfolio = () => {
   return (
-    <div className="flex justify-center items-center h-full flex-col p-10 mt-[300vh]">
-      <h1 className="text-5xl font-bold mb-16">Portfolio</h1>
+    <PageContainer 
+      pageTitle='Portfolio'
+      pageSubtitle='A Collection of My Most Notable Works and Achievements'
+    >
       <div className="my-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
         {projects.map((item) => (
           <ProjectCard 
@@ -18,7 +21,7 @@ const Portfolio = () => {
           />
         ))}
       </div>
-    </div>
+    </PageContainer>
   )
 }
 

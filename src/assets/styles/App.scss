@@ -160,6 +160,11 @@ body{
   }
 }
 
+.scroll-container {
+    scroll-behavior: smooth;
+    transition: transform 0.5s ease-out;
+}
+
 .scroll-container::-webkit-scrollbar {
     width: 3px;
 }
@@ -287,4 +292,96 @@ body{
         padding: 0rem 2rem;
         list-style-type: circle;
     }
+}
+
+@keyframes Shine {
+    0% {
+        color: gray;
+    }
+    50% {
+        color: #00f8f8;
+    }
+    100% {
+        color: gray;
+    }
+}
+
+.shinning-text {
+    animation-name: Shine;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MoveTopFade {
+    0% {
+        opacity: .3;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes MoveSideFade {
+    0% {
+        opacity: .3;
+        transform: translateX(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes PopUp {
+    0% {
+        opacity: .3;
+        transform: scale(.3);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.an-move-top-fade {
+    opacity: .3;
+    transform: translateY(100%);
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    &.an-active {
+        animation-name: MoveTopFade;
+    }
+}
+
+.an-move-side-fade {
+    opacity: .3;
+    transform: translateX(50%);
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    &.an-active {
+        animation-name: MoveSideFade;
+    }
+}
+
+.an-pop-up {
+    opacity: .3;
+    transform: scale(.3);
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    &.an-active {
+        animation-name: PopUp;
+    }
+}
+
+.an-delay-1 {
+    animation-delay: 0s;
+}
+
+.an-delay-2 {
+    animation-delay: 3s;
 }

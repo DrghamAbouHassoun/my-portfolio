@@ -11,6 +11,9 @@ import SocialButton from "../components/Buttons/SocialButton"
 import { useFormik } from "formik";
 import ContactSchema from "../schema/contact.schema"
 import { useState } from "react"
+import PageContainer from "../layout/PageContainer"
+import PopUpAnimation from "../components/animation/PopUpAnimation"
+import MoveSideAnimation from "../components/animation/MoveSideAnimation"
 
 const Contact = () => {
   const [loading, setLoading] = useState<boolean>(false);
@@ -46,9 +49,11 @@ const Contact = () => {
   })
 
   return (
-    <div className="flex justify-center items-center h-full flex-col p-10 mt-[500px]">
-      <h1 className="text-5xl font-bold mb-16">Contact Me:</h1>
-      <div className="flex gap-2 w-full">
+    <PageContainer
+      pageTitle="Contact Me"
+      pageSubtitle="I'd Love to Hear From You"
+    >
+      <div className="flex gap-2 w-full flex-wrap">
         <PrimaryForm action="https://formsubmit.co/drghamabouhassoun@gmail.com" method="POST" className="py-7">
           <h3 className="text-primary-200 font-bold text-3xl mb-4 text-center">Let&apos;s work together!</h3>
           <div className="w-full flex gap-2 my-4">
@@ -82,22 +87,34 @@ const Contact = () => {
         <div className="flex-1 flex flex-col gap-10 justify-center items-center w-full">
           <ul className="flex flex-col gap-5 self-center">
             <li className="flex items-center gap-3">
-              <div className="rounded-full flex justify-center items-center w-[60px] h-[60px] text-primary-200 text-2xl">
-                <FaPhone />
-              </div>
-              <a href={`tel:${common.phone}`} className="hover:text-primary-200 transition-colors duration-300">{common.phone}</a>
+              <PopUpAnimation>
+                <div className="rounded-full flex justify-center items-center w-[60px] h-[60px] text-primary-200 text-2xl">
+                  <FaPhone />
+                </div>
+              </PopUpAnimation>
+              <MoveSideAnimation>
+                <a href={`tel:${common.phone}`} className="hover:text-primary-200 transition-colors duration-300">{common.phone}</a>
+              </MoveSideAnimation>
             </li>
             <li className="flex items-center gap-3">
-              <div className="rounded-full flex justify-center items-center w-[60px] h-[60px] text-primary-200 text-2xl">
-                <LuMail />
-              </div>
-              <a href={`mailto: ${common.email}`} className="hover:text-primary-200 transition-colors duration-300">{common.email}</a>
+              <PopUpAnimation>
+                <div className="rounded-full flex justify-center items-center w-[60px] h-[60px] text-primary-200 text-2xl">
+                  <LuMail />
+                </div>
+              </PopUpAnimation>
+              <MoveSideAnimation>
+                <a href={`mailto: ${common.email}`} className="hover:text-primary-200 transition-colors duration-300">{common.email}</a>
+              </MoveSideAnimation>
             </li>
             <li className="flex items-center gap-3">
-              <div className="rounded-full flex justify-center items-center w-[60px] h-[60px] text-primary-200 text-2xl">
-                <IoLocationSharp />
-              </div>
-              <p>{common.address}</p>
+              <PopUpAnimation>
+                <div className="rounded-full flex justify-center items-center w-[60px] h-[60px] text-primary-200 text-2xl">
+                  <IoLocationSharp />
+                </div>
+              </PopUpAnimation>
+              <MoveSideAnimation>
+                <p>{common.address}</p>
+              </MoveSideAnimation>
             </li>
           </ul>
           <div className="flex justify-center items-center gap-3">
@@ -120,7 +137,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </PageContainer>
   )
 }
 
