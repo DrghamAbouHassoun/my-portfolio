@@ -45,7 +45,7 @@ const ModalProvider = ({ children }: ModalProviderProps) => {
           <>
           <div className="p-6">
             <img
-              src={`/my-portfolio/public/${project.media[0].src}`}
+              src={`./${project.media[0].src}`}
               className="w-full h-[450px] object-cover"
             />
           </div>
