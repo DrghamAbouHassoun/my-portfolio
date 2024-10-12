@@ -22,10 +22,10 @@ interface ModalProviderProps {
 
 const ModalProvider = ({ children }: ModalProviderProps) => {
   const [toggle, setToggle] = useState<boolean>(false);
-  const [currentId, setCurrentId] = useState<number>(0);
+  const [project, setProject] = useState<IProject | null | undefined>(null)
 
   const handletoggleModal = (value: boolean, id?: number) => {
-    setCurrentId(id || 0);
+    setProject(projects.find(item => item.id === id))
     setToggle(value);
   }
 
@@ -41,14 +41,37 @@ const ModalProvider = ({ children }: ModalProviderProps) => {
               <IoClose />
             </button>
           </div>
+          {project ?
+          <>
           <div className="p-6">
             <img
-              src={`/my-portfolio/public/${projects.find((item) => item.id === currentId)?.media[0].src}`}
+              src={`/my-portfolio/public/${project.media[0].src}`}
               className="w-full h-[450px] object-cover"
             />
           </div>
-          <h3 className="text-3xl text-center my-4">{projects.find((item) => item.id === currentId)?.title}</h3>
-          <div className="html-content" dangerouslySetInnerHTML={{ __html: projects.find((item) => item.id === currentId)?.description || "" }} />
+          <h3 className="text-3xl text-center my-4">{project.title}</h3>
+          <div>
+            <ul className="list-inside list-disc">
+              {project.websiteLink ?
+              <li>
+                Website: <a href={project.websiteLink} className="underline text-blue-500">{project.websiteLink}</a>
+              </li>
+              : null}
+              {project.androidLink ? 
+              <li>
+                Android: <a href={project.androidLink} className="underline text-blue-500">{project.androidLink}</a>
+              </li>: null}
+              {project.iosLink ? 
+              <li>
+                IOS: <a href={project.iosLink} className="underline text-blue-500">{project.iosLink}</a>
+              </li>: null}
+            </ul>
+            
+          </div>
+          <div className="html-content p-2" dangerouslySetInnerHTML={{ __html: project.description || "" }} />
+          </> : null
+          }
+          
         </div>
       </div>
       {children}
