@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import projects from "../assets/data/projects.json";
+import projects from "../assets/data/projects";
 import { IoClose } from "react-icons/io5";
 
 interface InitialState {
@@ -22,10 +22,10 @@ interface ModalProviderProps {
 
 const ModalProvider = ({ children }: ModalProviderProps) => {
   const [toggle, setToggle] = useState<boolean>(false);
-  const [project, setProject] = useState<IProject | null | undefined>(null)
+  const [project, setProject] = useState<typeof projects[number] | null>(null)
 
   const handletoggleModal = (value: boolean, id?: number) => {
-    setProject(projects.find(item => item.id === id))
+    setProject(projects.find(item => item.id === id) || null)
     setToggle(value);
   }
 
@@ -68,7 +68,10 @@ const ModalProvider = ({ children }: ModalProviderProps) => {
             </ul>
             
           </div>
-          <div className="html-content p-2" dangerouslySetInnerHTML={{ __html: project.description || "" }} />
+          <div className="html-content p-2">
+            {project.description || ""}
+          </div>
+          {/* <div className="html-content p-2" dangerouslySetInnerHTML={{ __html: project.description || "" }} /> */}
           </> : null
           }
           

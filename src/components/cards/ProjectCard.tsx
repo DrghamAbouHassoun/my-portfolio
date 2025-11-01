@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { ReactElement, useContext } from "react";
 import ReactVisibilitySensor from "react-visibility-sensor";
 import { ModalContext } from "../../providers/modal.provider";
 
@@ -6,6 +6,7 @@ interface ProjectCardProps {
   id: number;
   title: string;
   subtitle: string;
+  description?: string | ReactElement;
   mainImageSrc: string;
   mainImageAlt: string;
 }

@@ -3,10 +3,26 @@
     "mainTitle": "Experience",
     "data": [
       {
+        "title": "Software Developer",
+        "institution": "Mediaslide World",
+        "from": "2024-10-16T18:25:43.511Z",
+        "to": "present",
+        "location": "Dubai, UAE",
+        "description": [
+          "Designed and developed scalable applications using Next.js, Node.js, and Laravel, improving system performance and user satisfaction.",
+          "Implemented CI/CD pipelines with Docker and GitHub, reducing deployment time by up to 40%.",
+          "Deployed applications on Google Cloud Platform, ensuring reliability and cost-efficient infrastructure management.",
+          "Integrated AI models into applications, enhancing functionality and driving a more personalized user experience.",
+          "Built and maintained financial software, increasing data accuracy and security while supporting compliance with industry standards.",
+          "Collaborated with cross-functional teams to define requirements and deliver high-quality solutions on time.",
+          "Optimized database queries and backend processes, reducing system latency and improving scalability."
+        ]
+      },
+      {
         "title": "Senior Full Stack Developer",
         "institution": "Life Smile",
-        "from": "2023-04-23T18:25:43.511Z",
-        "to": "present",
+        "from": "2023-11-14T18:25:43.511Z",
+        "to": "2024-10-12T18:25:43.511Z",
         "location": "Dubai, UAE",
         "description": [
           "Developed and maintained responsive web and mobile applications using Next.js, React.js, and Node.js, resulting in a 40% increase in user engagement.",
@@ -20,8 +36,8 @@
       {
         "title": "Full Stack Developer",
         "institution": "Web CTRLA",
-        "from": "2024-05-23T18:25:43.511Z",
-        "to": "2024-05-23T18:25:43.511Z",
+        "from": "2020-05-16T18:25:43.511Z",
+        "to": "2023-11-01T18:25:43.511Z",
         "location": "Dubai, UAE",
         "description": [
           "Developed end-to-end web applications using Next.js, React.js, and Node.js, driving a 35% increase in customer satisfaction.",

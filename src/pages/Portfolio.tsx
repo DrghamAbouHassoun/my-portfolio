@@ -1,4 +1,4 @@
-import projects from '../assets/data/projects.json';
+import projects from '../assets/data/projects.tsx';
 import ProjectCard from '../components/cards/ProjectCard';
 import PageContainer from '../layout/PageContainer';
 
@@ -15,9 +15,10 @@ const Portfolio = () => {
             id={item.id}
             key={item.id}
             title={item.title}
-            subtitle={item.subtitle}
-            mainImageAlt={item.media[0].alt}
-            mainImageSrc={`./${item.media[0].src}`}
+            subtitle={item.subtitle || ''}
+            description={item.description || ''}
+            mainImageAlt={item.media?.[0].alt || ''}
+            mainImageSrc={`./${item.media?.[0].src}`}
           />
         ))}
       </div>
